@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFF;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+#galaxy-selector {
+    display: flex;
+    justify-content: center;
+}
+
+#galaxy-info {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    flex-direction: column; /* Stack items vertically */
+}
+
+#galaxy-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: auto; /* Center horizontally */
+    display: block; /* Important for margin auto to work */
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Cybernetic Transformations</title>
+</head>
+<body>
+    <header>
+        <h1>Cybernetic Transformations</h1>
+        <nav>
+            <ul>
+                <li><a href="#cyborg-gallery">Cyborg Gallery</a></li>
+                <li><a href="#consultation">Request Consultation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="cyborg-gallery">
+        <h2>Cyborg Gallery</h2>
+        <div id="gallery">
+            <img src="images/image1.jpg" alt="image1">
+            <img src="images/image2.jpg" alt="image2">
+            <img src="images/image3.jpg" alt="image3">
+        </div>
+    </section>
+    <section id="consultation">
+        <h2>Request a Consultation</h2>
+        <form action="/submit" method="post">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Request Consultation</button>
+        </form>
+    </section>
+</body>
+</html>
