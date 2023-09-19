@@ -1,3 +1,7 @@
+Feedback: When you click on an image of the AI companion something happens like a mini introduction
+
+potentially selling the software as well
+
 Gaming AI Companion 
 
 1. **Enhanced Gameplay Experience**: AI companions can adapt to your playing style and help make the gaming experience more engaging and immersive. For instance, in a Role-Playing Game (RPG), an AI companion might learn your tactics and preferences and provide you with strategies or suggestions that align with your playing style.

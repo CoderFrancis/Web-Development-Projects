@@ -11,7 +11,7 @@
     --heading-color: #FFFFFF; /* Soft White */
     --alert-color: #FF4C4C; /* Soft Red */
 }
-/************************************START OF INDEX PAGE**************************/
+
 body {
     font-family: 'Orbitron', sans-serif;
     background-color: var(--primary-background);
@@ -19,6 +19,7 @@ body {
     line-height: 1.6;
     text-align: center;
 }
+
 
 h1 {
     font-size: 2em;
@@ -31,6 +32,9 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: var(--primary-background);
+}
 p {
     font-size: 1em;
     line-height: 1.6;
@@ -87,6 +91,8 @@ section {
 #companion-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .companion {
@@ -124,10 +130,133 @@ button {
     text-align: center;
     width: 100%;
 }
+/************************************START OF INDEX PAGE*************************************/
+
+#body-index {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: center;
+}
+
+#body-index h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+#body-index h2 {
+    color: var(--heading-color);
+    text-align: center;
+}
+
+#body-index h3 {
+    color: var(--primary-background);
+}
+#body-index p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--primary-background);
+}
+
+#body-index header {
+    background: var(--secondary-background);
+    color: var(--primary-accent);
+    text-align: center;
+    padding: 1em 0;
+}
+
+#body-index nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+#body-index nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#body-index nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#body-index nav > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#body-index nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#body-index nav ul li:hover > ul {
+    display: block;
+}
+
+
+#body-index section {
+    padding: 20px;
+}
+
+#body-index #companion-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#body-index .companion {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 40px);
+    flex: 1 0 300px; /* This will allow the div to grow and shrink, but have a base width of 300px */
+}
+
+#body-index button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+#body-index .companion-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#body-index .companion h3 {
+    margin: 10px 0;
+}
+
+#body-index .companion-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap to the next line if the screen size is too small */
+}
+
+#body-index .section-title {
+    text-align: center;
+    width: 100%;
+}
+
+/************************************END OF INDEX PAGE*************************************/
+
+
 
 /**************************************** START GAMING SIDEKICK PAGE***************************************/
 .companion-gaming h3 {
-    color: #1e90ff;
+    color: #000000;
     font-size: 1.5em;
 }
 
@@ -142,5 +271,5 @@ button {
 
 .companion p {
     font-size: 1em;
-    color: #696969;
+    color: #000000;
 }
