@@ -12,6 +12,847 @@
     --alert-color: #FF4C4C; /* Soft Red */
 }
 
+
+/************************************ START OF INDEX PAGE *************************************/
+
+#body-index {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: center;
+}
+
+#body-index header {
+    background: var(--secondary-background);
+    color: var(--primary-accent);
+    text-align: center;
+    padding: 1em 0;
+}
+
+#body-index h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+#body-index h2 {
+    color: var(--heading-color);
+    text-align: center;
+}
+
+#body-index h3 {
+    color: var(--primary-background);
+}
+#body-index p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--primary-background);
+}
+
+#body-index nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+#body-index nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#body-index nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#body-index nav > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#body-index nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#body-index nav ul li:hover > ul {
+    display: block;
+}
+
+#body-index section {
+    padding: 20px;
+}
+
+#body-index #companion-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+#body-index .companion {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    min-width: 300px; 
+    flex: 0 0 auto; /* Updated this property to maintain the width and not shrink */
+}
+
+#body-index button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+#body-index .companion-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#body-index .companion h3 {
+    margin: 10px 0;
+}
+
+#body-index .companion-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap to the next line if the screen size is too small */
+}
+
+#body-index .section-title {
+    text-align: center;
+    width: 100%;
+}
+
+/************************************END OF INDEX PAGE *************************************/
+
+/************************************START OF PERSONAL ASSISTANT PAGE **********************/
+
+#body-personal-assistant {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: center;
+}
+
+.header-personal-assistant {
+    background: var(--secondary-background);
+    color: var(--primary-accent);
+    text-align: center;
+    padding: 1em 0;
+}
+
+#body-personal-assistant h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+#body-personal-assistant h2 {
+    color: var(--heading-color);
+    text-align: center;
+}
+
+#body-personal-assistant h3 {
+    color: var(--primary-background);
+}
+#body-personal-assistant p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--primary-background);
+}
+
+#body-personal-assistant nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+#body-personal-assistant nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#body-personal-assistant nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#body-personal-assistant nav > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#body-personal-assistant nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#body-personal-assistant nav ul li:hover > ul {
+    display: block;
+}
+
+
+#body-personal-assistant section {
+    padding: 20px;
+}
+
+#body-personal-assistant #companion-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#body-personal-assistant .companion {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 40px);
+    flex: 1 0 300px; /* This will allow the div to grow and shrink, but have a base width of 300px */
+}
+
+#body-personal-assistant button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+#body-personal-assistant .companion-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#body-personal-assistant .companion h3 {
+    margin: 10px 0;
+}
+
+#body-personal-assistant .companion-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap to the next line if the screen size is too small */
+}
+
+#body-personal-assistant .section-title {
+    text-align: center;
+    width: 100%;
+}
+
+/************************************END OF PERSONAL ASSISTANT PAGE ************************/
+
+/*********************************** START OF FITNESS COACH PAGE ***************************/
+
+#body-fitness-coach {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: center;
+}
+
+#body-fitness-coach header {
+    background: var(--secondary-background);
+    color: var(--primary-accent);
+    text-align: center;
+    padding: 1em 0;
+}
+
+#body-fitness-coach h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+#body-fitness-coach h2 {
+    color: var(--heading-color);
+    text-align: center;
+}
+
+#body-fitness-coach h3 {
+    color: var(--primary-background);
+}
+#body-fitness-coach p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--primary-background);
+}
+
+#body-fitness-coach nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+#body-fitness-coach nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#body-fitness-coach nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#body-fitness-coach nav > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#body-fitness-coach nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#body-fitness-coach nav ul li:hover > ul {
+    display: block;
+}
+
+#body-fitness-coach section {
+    padding: 20px;
+}
+
+#body-fitness-coach #companion-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#body-fitness-coach .companion {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 40px);
+    flex: 1 0 300px; /* This will allow the div to grow and shrink, but have a base width of 300px */ 
+}
+
+#body-fitness-coach button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+#body-fitness-coach .companion-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#body-fitness-coach .companion h3 {
+    margin: 10px 0;
+}
+
+#body-fitness-coach .companion-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap to the next line if the screen size is too small */
+}
+
+#body-fitness-coach .section-title {
+    text-align: center;
+    width: 100%;
+}
+
+/*********************************** END OF FITNESS COACH PAGE *****************************/
+
+/*********************************** START OF STUDY AND EDUCATION AID PAGE *****************/
+
+#body-study-education {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: center;
+}
+
+#body-study-education header {
+    background: var(--secondary-background);
+    color: var(--primary-accent);
+    text-align: center;
+    padding: 1em 0;
+}
+
+#body-study-education h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+#body-study-education h2 {
+    color: var(--heading-color);
+    text-align: center;
+}
+
+#body-study-education h3 {
+    color: var(--primary-background);
+}
+#body-study-education p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--primary-background);
+}
+
+#body-study-education nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+#body-study-education nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#body-study-education nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#body-study-education nav > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#body-study-education nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#body-study-education nav ul li:hover > ul {
+    display: block;
+}
+
+
+#body-study-education section {
+    padding: 20px;
+}
+
+#body-study-education #companion-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#body-study-education .companion {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 40px);
+    flex: 1 0 300px; /* This will allow the div to grow and shrink, but have a base width of 300px */ 
+}
+
+#body-study-education button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+#body-study-education .companion-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#body-study-education .companion h3 {
+    margin: 10px 0;
+}
+
+#body-study-education .companion-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap to the next line if the screen size is too small */
+}
+
+#body-study-education .section-title {
+    text-align: center;
+    width: 100%;
+}
+
+/*********************************** END OF STUDY AND EDUCATION AID PAGE *******************/
+
+/*********************************** START OF GAMING SIDEKICK PAGE *************************/
+
+#body-gaming-sidekick {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: center;
+}
+
+#body-gaming-sidekick header {
+    background: var(--secondary-background);
+    color: var(--primary-accent);
+    text-align: center;
+    padding: 1em 0;
+}
+
+#body-gaming-sidekick h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+#body-gaming-sidekick h2 {
+    color: var(--heading-color);
+    text-align: center;
+}
+
+#body-gaming-sidekick h3 {
+    color: var(--primary-background);
+}
+#body-gaming-sidekick p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--primary-background);
+}
+
+#body-gaming-sidekick nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+#body-gaming-sidekick nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#body-gaming-sidekick nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#body-gaming-sidekick nav > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#body-gaming-sidekick nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#body-gaming-sidekick nav ul li:hover > ul {
+    display: block;
+}
+
+
+#body-gaming-sidekick section {
+    padding: 20px;
+}
+
+#body-gaming-sidekick #companion-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#body-gaming-sidekick .companion {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 40px);
+    flex: 1 0 300px; /* This will allow the div to grow and shrink, but have a base width of 300px */ 
+}
+
+#body-gaming-sidekick button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+#body-gaming-sidekick .companion-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#body-gaming-sidekick .companion h3 {
+    margin: 10px 0;
+}
+
+#body-gaming-sidekick .companion-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap to the next line if the screen size is too small */
+}
+
+/*********************************** END OF GAMING SIDEKICK PAGE ***************************/
+
+/*********************************** START OF SPACE TRAVEL PAGE ****************************/
+
+#body-space-travel {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: center;
+}
+
+#body-space-travel header {
+    background: var(--secondary-background);
+    color: var(--primary-accent);
+    text-align: center;
+    padding: 1em 0;
+}
+
+#body-space-travel h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+#body-space-travel h2 {
+    color: var(--heading-color);
+    text-align: center;
+}
+
+#body-space-travel h3 {
+    color: var(--primary-background);
+}
+#body-space-travel p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--primary-background);
+}
+
+#body-space-travel nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+#body-space-travel nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#body-space-travel nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#body-space-travel nav > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#body-space-travel nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#body-space-travel nav ul li:hover > ul {
+    display: block;
+}
+
+
+#body-space-travel section {
+    padding: 20px;
+}
+
+#body-space-travel #companion-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#body-space-travel .companion {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 40px);
+    flex: 1 0 300px; /* This will allow the div to grow and shrink, but have a base width of 300px */ 
+}
+
+#body-space-travel button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+#body-space-travel .companion-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#body-space-travel .companion h3 {
+    margin: 10px 0;
+}
+
+#body-space-travel .companion-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap to the next line if the screen size is too small */
+}
+
+/*********************************** END OF SPACE TRAVEL PAGE ****************************/
+
+/*********************************** START OF HOME AUTOMATION PAGE ***********************/
+
+#body-home-automation {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: center;
+}
+
+#body-home-automation header {
+    background: var(--secondary-background);
+    color: var(--primary-accent);
+    text-align: center;
+    padding: 1em 0;
+}
+
+#body-home-automation h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+#body-home-automation h2 {
+    color: var(--heading-color);
+    text-align: center;
+}
+
+#body-home-automation h3 {
+    color: var(--primary-background);
+}
+#body-home-automation p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--primary-background);
+}
+
+#body-home-automation nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+#body-home-automation nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#body-home-automation nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#body-home-automation nav > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#body-home-automation nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#body-home-automation nav ul li:hover > ul {
+    display: block;
+}
+
+
+#body-home-automation section {
+    padding: 20px;
+}
+
+#body-home-automation #companion-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#body-home-automation .companion {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 40px);
+    flex: 1 0 300px; /* This will allow the div to grow and shrink, but have a base width of 300px */ 
+}
+
+#body-home-automation button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+#body-home-automation .companion-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#body-home-automation .companion h3 {
+    margin: 10px 0;
+}
+
+#body-home-automation .companion-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap to the next line if the screen size is too small */
+}
+
+/*********************************** END OF HOME AUTOMATION PAGE *************************/
+
+/*********************************** START OF BASE LAYER CSS *****************************/
+
+/*
 body {
     font-family: 'Orbitron', sans-serif;
     background-color: var(--primary-background);
@@ -94,7 +935,7 @@ section {
     gap: 20px;
     justify-content: center;
 }
-
+*/
 .companion {
     background: #f4f4f4;
     border: 1px solid #ddd;
@@ -103,7 +944,7 @@ section {
     width: calc(33.333% - 40px);
     flex: 1 0 300px; /* This will allow the div to grow and shrink, but have a base width of 300px */
 }
-
+/*
 button {
     display: inline-block;
     background: #333;
@@ -120,156 +961,14 @@ button {
 .companion h3 {
     margin: 10px 0;
 }
-
+*/
 .companion-container {
     display: flex;
     flex-wrap: wrap; /* This allows the items to wrap to the next line if the screen size is too small */
 }
-
+/*
 .section-title {
     text-align: center;
     width: 100%;
-}
-/************************************START OF INDEX PAGE*************************************/
-
-#body-index {
-    font-family: 'Orbitron', sans-serif;
-    background-color: var(--primary-background);
-    color: var(--text-color);
-    line-height: 1.6;
-    text-align: center;
-}
-
-#body-index h1 {
-    font-size: 2em;
-    font-weight: bold;
-    color: var(--heading-color);
-}
-
-#body-index h2 {
-    color: var(--heading-color);
-    text-align: center;
-}
-
-#body-index h3 {
-    color: var(--primary-background);
-}
-#body-index p {
-    font-size: 1em;
-    line-height: 1.6;
-    color: var(--primary-background);
-}
-
-#body-index header {
-    background: var(--secondary-background);
-    color: var(--primary-accent);
-    text-align: center;
-    padding: 1em 0;
-}
-
-#body-index nav ul {
-    padding: 0;
-    list-style: none;
-}
-
-#body-index nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-#body-index nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#body-index nav > ul > li {
-    position: relative;
-    display: inline-block;
-    margin-right: 20px;
-}
-
-#body-index nav ul ul {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    display: none;
-    padding: 10px;
-    background-color: #333;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-#body-index nav ul li:hover > ul {
-    display: block;
-}
-
-
-#body-index section {
-    padding: 20px;
-}
-
-#body-index #companion-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-#body-index .companion {
-    background: #f4f4f4;
-    border: 1px solid #ddd;
-    margin: 10px;
-    padding: 10px;
-    width: calc(33.333% - 40px);
-    flex: 1 0 300px; /* This will allow the div to grow and shrink, but have a base width of 300px */
-}
-
-#body-index button {
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-}
-
-#body-index .companion-image {
-    max-width: 100%;
-    height: auto;
-}
-
-#body-index .companion h3 {
-    margin: 10px 0;
-}
-
-#body-index .companion-container {
-    display: flex;
-    flex-wrap: wrap; /* This allows the items to wrap to the next line if the screen size is too small */
-}
-
-#body-index .section-title {
-    text-align: center;
-    width: 100%;
-}
-
-/************************************END OF INDEX PAGE*************************************/
-
-
-
-/**************************************** START GAMING SIDEKICK PAGE***************************************/
-.companion-gaming h3 {
-    color: #000000;
-    font-size: 1.5em;
-}
-
-.companion-gaming {
-    background: #f4f4f4;
-    border: 1px solid #ddd;
-    margin: 10px;
-    padding: 10px;
-    width: calc(33.333% - 40px);
-    flex: 1 0 300px; /* This will allow the div to grow and shrink, but have a base width of 300px */
-}
-
-.companion p {
-    font-size: 1em;
-    color: #000000;
-}
+} 
+/*********************************** END OF BASE LAYER CSS **************************************/
