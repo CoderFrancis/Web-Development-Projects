@@ -7,21 +7,21 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/athena.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/personal-assistant.html"
         },
         {
             name: "Jeeves",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/jeeves.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/personal-assistant.html"
         },
         {
             name: "Luna",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/luna.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/personal-assistant.html"
         },
         {
             name: "Max",
@@ -49,84 +49,84 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/thales.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/study-education.html"
         },
         {
             name: "Sagacia",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/sagacia.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/study-education.html"
         },
         {
             name: "Eduardus",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/eduardus.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/study-education.html"
         },
         {
             name: "Zara, The Strategist",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/zara-2.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/gaming-sidekick.html"
         },
         {
             name: "Rocco, The Adventure Guild",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/rocco.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/gaming-sidekick.html"
         },
         {
             name: "Blitz, The FPS (First-Person Shooter) Ally",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/blitz.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/gaming-sidekick.html"
         },
         {
             name: "Orion",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/orion.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/space-travel-companion.html"
         },
         {
             name: "Nova",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/nova.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/space-travel-companion.html"
         },
         {
             name: "Stellar",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/stellar.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/space-travel-companion.html"
         },
         {
             name: "Apollo",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/apollo.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/home-automation.html"
         },
         {
             name: "Elsa",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/Elsa.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/home-automation.html"
         },
         {
             name: "Zenith",
             description: "An AI companion specialized in personal fitness training.",
             price: "$50",
             image: "images/zenith.png",
-            link: "sites/catalogue/fitness-coach.html"
+            link: "sites/catalogue/home-automation.html"
         }
     ];
     
