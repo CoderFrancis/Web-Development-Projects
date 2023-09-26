@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="script.js" defer></script>
     <title>Cybernetic Transformations</title>
 </head>
-<body>
+
+<body id="body-index">
+
     <header>
         <h1>Cybernetic Transformations</h1>
         <nav>
             <ul>
-                <li><a href="#catalogue">Catalogue</a></li>
+                <li>
+                    <a href="#catalogue">Catalogue</a>
+                    <ul>
+                        <li><a href="sites/catalogue/upper-body.html">Upper Body Enchancements</a></li>
+                        <li><a href="sites/catalogue/lower-body.html">Lower Body Enchancements</a></li>
+                        <li><a href="sites/catalogue/accessories.html">Accessory Enchancements</a></li>
+                        <li><a href="sites/catalogue/miscellaneous.html">Miscellaneous Enchancements</a></li>
+                    </ul>
+                </li>
                 <li><a href="#cyborg-gallery">Cyborg Gallery</a></li>
                 <li><a href="#consultation">Request Consultation</a></li>
             </ul>
         </nav>
     </header>
+
     <section id="cyborg-gallery">
         <h2>Cyborg Gallery</h2>
         <div id="gallery">
@@ -27,6 +39,7 @@
             <img src="images/image3.jpg" alt="image3">
         </div>
     </section>
+
     <section id="consultation">
         <h2>Request a Consultation</h2>
         <form action="/submit" method="post">
@@ -36,5 +49,7 @@
             <button type="submit">Request Consultation</button>
         </form>
     </section>
-</body>
+
+</body id="body-index">
+
 </html>

@@ -1,0 +1,133 @@
+:root {
+    --primary-background: #1A1A1A; /* Cybernetic Matte Black */
+    --secondary-background: #282828; /* Dark Graphite */
+    --primary-accent: #0B3D91; /* Deep Electric Blue */
+    --secondary-accent: #1E90FF; /* Bright Digital Blue */
+    --tertiary-accent: #8A2BE2; /* Futuristic Purple */
+    --quaternary-accent: #DAA520; /* Cyber Gold */
+    --text-color: #E0E0E0; /* Digital Light Grey */
+    --heading-color: #F8F8FF; /* Ghost White */
+    --alert-color: #FF4500; /* Orange-Red Alert */
+}
+
+/************************************ START OF INDEX PAGE *************************************/
+
+#body-index {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    text-align: center;
+}
+
+#body-index header {
+    background-color: var(--secondary-background);
+    color: var(--primary-accent);
+    padding: 20px;
+    text-align: center;
+}
+
+#body-index h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+#body-index h2 {
+    color: var(--heading-color);
+    text-align: center;
+}
+
+#body-index h3 {
+    color: var(--primary-background);
+}
+#body-index p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--primary-background);
+}
+
+#body-index nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#body-index nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#body-index nav a {
+    color: #0f0;
+    text-decoration: none;
+}
+
+#body-index #cyborg-gallery, #consultation {
+    padding: 50px;
+    text-align: center;
+}
+
+#body-index #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+#body-index form {
+    margin-top: 20px;
+}
+
+#body-index input, textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#body-index button {
+    padding: 10px 20px;
+    background-color: #0f0;
+    border: none;
+    color: #000;
+}
+
+#body-index nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+#body-index nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#body-index nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#body-index nav > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#body-index nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#body-index nav ul li:hover > ul {
+    display: block;
+}
+
+#body-index section {
+    padding: 20px;
+}
