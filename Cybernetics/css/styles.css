@@ -12,7 +12,7 @@
 
 /************************************ START OF INDEX PAGE *************************************/
 
-#body-index {
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -21,54 +21,54 @@
     text-align: center;
 }
 
-#body-index header {
+header {
     background-color: var(--secondary-background);
     color: var(--primary-accent);
     padding: 20px;
     text-align: center;
 }
 
-#body-index h1 {
+h1 {
     font-size: 2em;
     font-weight: bold;
     color: var(--heading-color);
 }
 
-#body-index h2 {
+h2 {
     color: var(--heading-color);
     text-align: center;
 }
 
-#body-index h3 {
+h3 {
     color: var(--primary-background);
 }
-#body-index p {
+p {
     font-size: 1em;
     line-height: 1.6;
     color: var(--primary-background);
 }
 
-#body-index nav ul {
+nav ul {
     list-style: none;
     padding: 0;
 }
 
-#body-index nav li {
+nav li {
     display: inline-block;
     margin-right: 20px;
 }
 
-#body-index nav a {
+nav a {
     color: #0f0;
     text-decoration: none;
 }
 
-#body-index #cyborg-gallery, #consultation {
+#cyborg-gallery, #consultation {
     padding: 50px;
     text-align: center;
 }
 
-#body-index #gallery {
+#gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -76,45 +76,45 @@
     height: auto;
 }
 
-#body-index form {
+form {
     margin-top: 20px;
 }
 
-#body-index input, textarea {
+input, textarea {
     display: block;
     margin: 10px auto;
     padding: 10px;
 }
 
-#body-index button {
+button {
     padding: 10px 20px;
     background-color: #0f0;
     border: none;
     color: #000;
 }
 
-#body-index nav ul {
+nav ul {
     padding: 0;
     list-style: none;
 }
 
-#body-index nav ul li {
+nav ul li {
     display: inline;
     margin-right: 20px;
 }
 
-#body-index nav ul li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-#body-index nav > ul > li {
+nav > ul > li {
     position: relative;
     display: inline-block;
     margin-right: 20px;
 }
 
-#body-index nav ul ul {
+nav ul ul {
     position: absolute;
     top: 100%;
     left: 0;
@@ -124,10 +124,60 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-#body-index nav ul li:hover > ul {
+nav ul li:hover > ul {
     display: block;
 }
 
-#body-index section {
+section {
     padding: 20px;
 }
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    width: 100%; /* or your preferred width */
+    max-width: 600px; /* or your preferred max width */
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    border: 2px solid #FFFFFF;
+  }
+  
+  /* Slides */
+  .slide {
+    width: 100%;
+    flex: 0 0 100%; /* Makes sure each slide takes up 100% of the container's width */
+  }
+  
+  /* Images */
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Navigation buttons */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.6); /* semi-transparent black */
+    border: none;
+    user-select: none;
+    z-index: 10;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,1); /* opaque black */
+  }
+  

@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="script.js" defer></script>
+    <script src="js/scripts.js" defer></script>
     <title>Cybernetic Transformations</title>
 </head>
 
-<body id="body-index">
+<body>
 
     <header>
         <h1>Cybernetic Transformations</h1>
@@ -31,12 +31,28 @@
         </nav>
     </header>
 
+    <div class="slideshow-container">
+        <!-- Slides -->
+        <div class="slide fade">
+          <img src="images/image1.jpg" alt="Description 1">
+        </div>
+        <div class="slide fade">
+          <img src="images/image2.jpg" alt="Description 2">
+        </div>
+        <div class="slide fade">
+            <img src="images/image3.jpg" alt="Description 3">
+          </div>
+        <!-- Add more slides as necessary -->
+      
+        <!-- Navigation buttons -->
+        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+    </div>
+    
     <section id="cyborg-gallery">
         <h2>Cyborg Gallery</h2>
         <div id="gallery">
-            <img src="images/image1.jpg" alt="image1">
-            <img src="images/image2.jpg" alt="image2">
-            <img src="images/image3.jpg" alt="image3">
+            
         </div>
     </section>
 
@@ -50,6 +66,6 @@
         </form>
     </section>
 
-</body id="body-index">
+</body>
 
 </html>
