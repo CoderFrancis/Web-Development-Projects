@@ -19,6 +19,7 @@ body {
     background-color: var(--primary-background);
     color: var(--text-color);
     text-align: center;
+    background: linear-gradient(45deg, var(--primary-background), var(--secondary-background));
 }
 
 header {
@@ -40,12 +41,12 @@ h2 {
 }
 
 h3 {
-    color: var(--primary-background);
+    color: var(--text-color);
 }
 p {
     font-size: 1em;
     line-height: 1.6;
-    color: var(--primary-background);
+    color: var(--quaternary-accent);
 }
 
 nav ul {
@@ -93,6 +94,10 @@ button {
     color: #000;
 }
 
+nav a:hover {
+    color: var(--tertiary-accent);
+}
+
 nav ul {
     padding: 0;
     list-style: none;
@@ -129,7 +134,8 @@ nav ul li:hover > ul {
 }
 
 section {
-    padding: 20px;
+    border: 1px solid #0f0;
+    margin: 20px 0;
 }
 
 /* Slideshow container */
@@ -181,3 +187,19 @@ section {
     background-color: rgba(0,0,0,1); /* opaque black */
   }
   
+  input:focus, textarea:focus {
+    border-color: var(--tertiary-accent);
+}
+
+button:hover {
+    background-color: var(--quaternary-accent);
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/************************************ END OF INDEX PAGE ***************************************/
+
+/************************************ START OF UPPER BODY PAGE *********************************/
