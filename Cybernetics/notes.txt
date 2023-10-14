@@ -1,1 +1,3 @@
 I'm thinking the pages we need to add are Upper body, Lower body, Accessocries, and Misc. 
+
+Make it theme based: modern, cyberpunk, steampunk, etc. And have each corresponding website reflect the theme color.
