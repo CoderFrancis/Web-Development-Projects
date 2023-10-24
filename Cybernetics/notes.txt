@@ -1,3 +1,16 @@
+Cyberpunk:
+
 I'm thinking the pages we need to add are Upper body, Lower body, Accessocries, and Misc. 
 
-Make it theme based: modern, cyberpunk, steampunk, etc. And have each corresponding website reflect the theme color.
+Make it theme based: modern, cyberpunk, steampunk, etc. And have each corresponding website reflect the theme color. - started 20231023
+
+Return to later - "Please note that the above CSS will give a basic cyberpunk feel. To fully achieve the ambiance you desire, such as ambient sounds, 
+more detailed animations, and UI elements, you might need additional libraries or advanced CSS/JS techniques."
+
+Futuristic:
+
+Remember, to truly capture the futuristic feel, you'll likely want to leverage advanced CSS techniques, animations, 
+and possibly some JavaScript interactivity. The above is just a foundational starting point!
+
+Sleek and Minimalistic:
+
