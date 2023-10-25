@@ -1,0 +1,3 @@
+Having a zoom effect come in when switching between galaxies, and having a voice narrating/read the desc of the galaxy
+
+On the homepage having an icon or image of each galaxy, a hover effect, and when you click it you get redirected to the corresponding webpage.

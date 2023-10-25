@@ -27,5 +27,16 @@ header {
     height: auto;
     margin: auto; /* Center horizontally */
     display: block; /* Important for margin auto to work */
+    transition: transform 0.3s ease; /* Smooth transformation transition */
+    cursor: pointer;
 }
 
+.galaxy-image:hover {
+    transform: scale(1.1); /* Slightly enlarges the image on hover */
+}
+
+.galaxy-link {
+    text-decoration: none; /* Removes underline from links */
+    margin: 10px; /* Provides some space between images */
+    display: inline-block; /* Makes the links inline but also block-like */
+}
