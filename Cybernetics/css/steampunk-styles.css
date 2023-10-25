@@ -1,0 +1,93 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #3a2e28;
+    color: #f4e8d4;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    background-image: url('steampunk_texture.jpg'); /* Replace with a vintage/steampunk background texture */
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', monospace;
+    border-bottom: 2px solid #f4e8d4;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f4e8d4;
+    font-weight: bold;
+    border: 1px solid #f4e8d4;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f4e8d4;
+    color: #3a2e28;
+}
+
+article img {
+    max-width: 100%;
+    border: 5px solid #f4e8d4;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.content {
+    margin: 2em;
+}
+
+/* Container holding the images */
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns of equal width */
+    gap: 20px; /* Spacing between the images */
+    padding: 20px;
+    max-width: 1200px; /* Adjust based on your design preference */
+    margin: 0 auto; /* Center the grid on the page */
+}
+
+/* Individual image styling */
+.steampunk-image {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+img.steampunk-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #917c69;
+    box-shadow: 0 0 10px #5c4e40;
+    border-radius: 10px;
+    width: 50%;  /* or whatever width you prefer */
+    margin: 1em auto;
+}
+
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    color: #d1bea8;
+}
+
+footer {
+    text-align: center;
+}
