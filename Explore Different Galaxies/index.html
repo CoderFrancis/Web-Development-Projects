@@ -10,34 +10,34 @@
 <body>
     <header>
         <h1>Welcome to Galaxy Explorer</h1>
-        <p>Embark on a luxury journey through the cosmos!</p>
+        <h4>Embark on a luxury journey through the cosmos!</h4>
     </header>
 
+    <p>Select through our list of galaxies to explore</p>
     <div id="galaxy-selector">
-        <select id="galaxy-dropdown" onchange="showGalaxyInfo()">
-            <option value="" disabled selected>Select a galaxy</option>
-            <option value="milky-way">Milky Way</option>
-            <option value="andromeda">Andromeda</option>
-            <option value="triangulum">Triangulum</option>
-        </select>
-    </div>
-
-    <div id="galaxy-selector">
-        <a href="milky-way.html" class="galaxy-link">
-            <img src="path/to/milky-way-image.jpg" alt="Milky Way" class="galaxy-image">
+        <a href="sites/galaxies/milky-way.html" class="galaxy-link">
+            <img src="images/galaxies/milky_way_1.jpg" alt="Milky Way" class="galaxy-image">
         </a>
-        <a href="andromeda.html" class="galaxy-link">
-            <img src="path/to/andromeda-image.jpg" alt="Andromeda" class="galaxy-image">
+        <a href="sites/galaxies/andromeda.html" class="galaxy-link">
+            <img src="images/galaxies/Andromeda_1.jpg" alt="Andromeda" class="galaxy-image">
         </a>
-        <a href="triangulum.html" class="galaxy-link">
-            <img src="path/to/triangulum-image.jpg" alt="Triangulum" class="galaxy-image">
+        <a href="sites/galaxies/triangulum.html" class="galaxy-link">
+            <img src="images/galaxies/Triangulum_1.jpg" alt="Triangulum" class="galaxy-image">
         </a>
     </div>    
-    
-    <div id="galaxy-info">
-        <img id="galaxy-image" src="" alt="Galaxy Image" style="display:none;">
-        <div id="galaxy-description"></div>
-    </div>    
+         
+    <p>Select through our list of planets to explore</p>
+    <div id="planet-selector">
+        <a href="sites/planets/earth.html" class="planet-link">
+            <img src="images/planets/earth_2.jpg" alt="Earth" class="planet-image">
+        </a>
+        <a href="sites/planets/mars.html" class="planet-link">
+            <img src="images/planets/mars_1.jpg" alt="Mars" class="planet-image">
+        </a>
+        <a href="sites/planets/jupiter.html" class="planet-link">
+            <img src="images/planets/jupiter_1.jpg" alt="Jupiter" class="planet-image">
+        </a>
+    </div>        
 
     <script src="scripts.js"></script>
 </body>
