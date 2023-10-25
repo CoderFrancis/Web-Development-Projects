@@ -5,13 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mars</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #FFF;
+            text-align: center;
+        }
+
+        #mars-image {
+            max-width: 450px;
+            width: 100%;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        #mars-image:hover {
+            transform: scale(1.1);
+        }
+
+        .description {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+    </style>
+
 </head>
+
 <body>
+
     <header>
         <h1>Mars</h1>
     </header>
-    <img src="images/Mars.jpg" alt="Mars" class="planet-image">
+
+    <a href="../../index.html">
+        <img id="mars-image" src="../../images/planets/mars_1.jpg" alt="Mars">
+    </a>
+
     <div class="description">
         <p>
             Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. Often referred to as the "Red Planet", Mars is a terrestrial planet with a thin atmosphere.
