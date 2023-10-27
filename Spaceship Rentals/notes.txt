@@ -1,0 +1,30 @@
+Give each spaceship it's own HTML (and maybe css) with full description etc
+
+On index page give an overview of the spaceships we have 
+
+Some suggestions ChatGPT had:
+
+Of course! I'm glad you found the suggestion useful. When crafting a website, especially one with a unique theme like "Spaceship Rentals," it's beneficial to create an immersive experience for your users. Here are a few more thematic ideas to consider:
+
+1. **Testimonials**: A section dedicated to feedback from "astronauts" who have rented spaceships in the past. This could be accompanied by stylized photos of galaxies, stars, or planets with quotes overlaying them.
+  
+2. **Galactic News**: A blog or news section where you can post fictional (or real!) updates about space exploration, new spaceship models available for rent, and other space-related events.
+
+3. **Spaceport**: This could be the contact or booking page. Present it as a spaceport where users can "dock" to make inquiries, book spaceships, or request more information.
+
+4. **Crew & Command**: Introduce your team or yourself. Describe the roles as "Commander," "First Officer," "Chief Engineer," etc., adding a bit of role-playing flavor to the site.
+
+5. **Galactic Guide**: Tips and information for first-time "space travelers." This can be an FAQ section with a twist, answering questions about spaceship rentals and how they "operate."
+
+6. **Mission Archives**: A portfolio or gallery showcasing different spaceships available for rent, past missions/events, or even artwork related to space themes.
+
+7. **Spaceship Specs**: A detailed guide on each spaceship available for rent. Think about including "technical specs" (even if they're fictional) to immerse users in the experience further.
+
+8. **Training Academy**: Offer guides, tutorials, or resources for those new to spaceship rentals. This can be presented as a training program for new pilots.
+
+9. **Intergalactic Offers**: Special deals, discounts, or promotions, styled in a space theme. For example: "Warp Speed Weekend Deals!"
+
+10. **Emergency Beacon**: Your website's footer can have essential links, contact info, and legal details, presented as an emergency communication tool for travelers.
+
+Remember, the key is to maintain a consistent theme and narrative throughout the site to create an engaging and memorable user experience. Feel free to use, adjust, or expand upon any of these ideas to fit your vision!
+
