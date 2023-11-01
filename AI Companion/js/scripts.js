@@ -1,14 +1,3 @@
-import myModule from './myModule.js';
-
-app.use(express.static('public', {
-    setHeaders: (res, path) => {
-      if (path.endsWith('.js')) {
-        res.setHeader('Content-Type', 'text/javascript');
-      }
-    }
-  }));
-  
-
 document.addEventListener("DOMContentLoaded", function () {
     const companionList = document.getElementById("companion-list");
 
