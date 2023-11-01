@@ -15,19 +15,19 @@
         <h1>Spaceship Rentals</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <!-- <li><a href="#">Home</a></li> -->
                 <li>
                     <a href="#">Spaceships</a>
                     <ul class="dropdown">
                         <li><a href="sites/compact-explorer.html">Compact Explorer</a></li>
-                        <li><a href="sites/galactic-crusier.html">Galactic Crusier</a></li>
+                        <li><a href="sites/galactic-cruiser.html">Galactic Cruiser</a></li>
                         <li><a href="sites/space-yacht.html">Space Yacht</a></li>
                         <li><a href="sites/star-explorer.html">Star Explorer</a></li>
                         <!-- More categories here -->
                     </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
         </nav>
     </header>
@@ -51,6 +51,35 @@
     <script src="scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Start of About section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our passion for space exploration has led us on a mission to provide the finest spacecrafts. Every spaceship in our collection is a masterpiece of engineering and design, allowing travelers to venture into the cosmos with confidence and style. Join us in this grand journey across the stars and be a part of our interstellar legacy.</p>
+    </section>
+
+    <!-- Separator Line -->
+    <hr class="section-divider">
+
+    <!-- Start of Contact section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+
+
 </body>
 
 </html>

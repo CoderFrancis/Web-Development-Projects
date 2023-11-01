@@ -65,6 +65,12 @@ nav a:hover {
     display: block;
 }
 
+.spaceship:hover .spaceship-image {
+    transform: scale(1.05); /* scales the image slightly */
+    opacity: 0.8;           /* makes the image a bit transparent */
+    transition: transform 0.3s, opacity 0.3s; /* smooth transition */
+}
+
 .image-container {
     position: relative;
 }
@@ -106,3 +112,74 @@ nav li:hover > ul {
 nav li ul {
     z-index: 999;
 }
+
+/* About and Contact Section Styling */
+#about, #contact {
+    text-align: center; /* This will center the text inside these sections */
+    padding: 40px 0; /* This adds some padding at the top and bottom for spacing */
+    margin-bottom: 40px; /* Add some margin to the bottom of each section */
+}
+
+#contact {
+    border-top: 2px solid #ddd; /* Add a border to the top of the contact section */
+}
+
+#about {
+    background-color: #0e0e1f; /* Light gray background */
+}
+
+#contact {
+    background-color: #0e0e1f; /* A slightly darker gray background */
+}
+
+.section-divider {
+    border: 0; /* Remove the default border */
+    height: 1px; /* Set the height of the divider line */
+    background: #ddd; /* Color of the divider line */
+    margin: 40px 0; /* Space above and below the divider */
+}
+
+/* Form Styling */
+form {
+    max-width: 600px; /* This sets a maximum width for the form so it doesn't stretch too wide on large screens */
+    margin: 0 auto; /* This centers the form within its parent container */
+    padding: 20px;
+    border: 1px solid #ddd; /* A subtle border around the form for definition */
+    border-radius: 5px; /* Rounded corners for the form */
+    background-color: #f9f9f9; /* A light gray background color for the form */
+}
+
+.form-group {
+    margin-bottom: 20px; /* This adds some space between each form input group */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Space between the label and the input field */
+}
+
+input[type="text"], input[type="email"], textarea, button {
+    width: 100%; /* This makes the input fields and button take up the full width of the form */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners for the input fields and button */
+}
+
+textarea {
+    resize: vertical; /* This allows users to resize the textarea vertically but not horizontally */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px; /* Space above the button */
+    transition: background-color 0.3s ease; /* Transition effect for hover state */
+}
+
+button:hover {
+    background-color: #555; /* Darker shade for hover state */
+}
+

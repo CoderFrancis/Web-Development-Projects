@@ -19,9 +19,15 @@ document.addEventListener("DOMContentLoaded", function() {
         const imageContainer = document.createElement('div');
         imageContainer.classList.add('image-container');
 
+        const spaceshipImageLink = document.createElement('a'); // Create an anchor tag
+        spaceshipImageLink.href = `sites/${spaceship.name.replace(/ /g, '-').toLowerCase()}.html`; // Set href to the spaceship's page
+
         const spaceshipImage = document.createElement('img');
         spaceshipImage.src = spaceship.image;
+        spaceshipImage.alt = spaceship.name;
         spaceshipImage.classList.add('spaceship-image');
+
+        spaceshipImageLink.appendChild(spaceshipImage); // Append image to the anchor tag
 
         const imageDescription = document.createElement('div');
         imageDescription.classList.add('image-description');
@@ -31,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
         descriptionText.classList.add('description-text');
 
         imageDescription.appendChild(descriptionText);
-        imageContainer.appendChild(spaceshipImage);
+        imageContainer.appendChild(spaceshipImageLink); // Append anchor (with image inside) to the imageContainer
         imageContainer.appendChild(imageDescription);
         spaceshipDiv.appendChild(spaceshipName);
         spaceshipDiv.appendChild(imageContainer);
