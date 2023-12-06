@@ -1,34 +1,156 @@
+:root {
+    --deep-space-navy: #0A2342;
+    --starlight-silver: #C0C0C0;
+    --cosmic-purple: #5A189A;
+    --nebula-pink: #E0AFA0;
+    --galactic-gold: #FFD700;
+    --earthly-brown: #8B4513;
+    --satellite-white: #FFFFFF;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: var(--satellite-white);
+    color: var(--deep-space-navy);
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%; /* This is usually 16px by default */
 }
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
+
+header, footer {
+    background-color: var(--earthly-brown);
+    color: var(--satellite-white);
 }
-nav {
-    background-color: #444;
-    color: white;
-    text-align: center;
-    padding: 0.5em;
+
+h1, h2, h3 {
+    color: var(--galactic-gold);
 }
-nav a {
-    margin: 0 15px;
-    color: white;
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700; /* Could be lighter or bolder depending on the font and preference */
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6; /* This improves readability for longer texts */
+}
+
+/* Using Galactic Gold as an accent color */
+a, .button, .highlight {
+    color: var(--galactic-gold);
+}
+
+a:hover, .button:hover {
+    background-color: var(--galactic-gold);
+    color: var(--deep-space-navy); /* This ensures readable contrast on hover */
+}
+
+a {
     text-decoration: none;
+    color: var(--galactic-gold);
 }
-main {
-    padding: 1em;
+
+a:hover {
+    text-decoration: underline;
 }
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
+
+.logo {
+    height: 100px; /* Or your desired size */
+    width: auto; /* Maintains the aspect ratio */
+    /* Additional styles to align and position the logo as needed */
+}
+
+.gallery {
+    text-align: center; /* Center aligns the title and any text within the gallery */
+    margin: 20px; /* Adds some space around the gallery */
+}
+
+.gallery h2 {
+    margin-bottom: 1em; /* Space below the gallery title */
+}
+
+.image-gallery {
+    display: flex; /* Enables Flexbox */
+    flex-wrap: wrap; /* Allows images to wrap to the next line */
+    justify-content: center; /* Centers images in the container */
+    gap: 10px; /* Space between images */
+    margin-top: 20px; /* Space above the gallery images */
+}
+
+.gallery-image {
+    flex: 1 0 auto; /* Allows the image to grow to fill space but not to shrink */
+    max-width: calc(33.333% - 20px); /* Subtract the total gap from the width */
+    height: auto; /* Maintains the aspect ratio of the images */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow to each image */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* Slightly enlarges the hovered image */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Enhances the shadow effect on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gallery-image {
+        max-width: calc(50% - 20px); /* 2 images per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-image {
+        max-width: 100%; /* 1 image per row on small screens */
+    }
+}
+
+.hero {
+    position: relative;
     width: 100%;
+    height: 75vh; /* Sets the height of the hero section to be 75% of the viewport height */
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area, may be cropped on certain screens */
+    object-position: center; /* Adjust this as needed to focus on a part of the image */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Choose a color that stands out from the hero image */
+    text-align: center;
+    z-index: 2;
+}
+
+/* Example of responsive font-sizes for the text inside the hero section */
+.hero h1 {
+    font-size: 2.5rem; /* Adjust the size as necessary */
+}
+
+.hero p {
+    font-size: 1.5rem; /* Adjust the size as necessary */
+}
+
+/* Ensures the hero text is legible over the hero image */
+@media (max-width: 768px) {
+    .hero-text {
+        background-color: rgba(0, 0, 0, 0.5); /* Dark background for better readability on smaller screens */
+        padding: 20px;
+        border-radius: 8px;
+    }
 }
