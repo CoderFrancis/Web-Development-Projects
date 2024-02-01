@@ -23,7 +23,7 @@ class Student(models.Model):
 
     # Optional fields
     major = models.CharField(max_length=200, blank=True)
-    gpa = models.DecimalField(max_length=3, decimal_places=2, null=True, blank=True)
+    # gpa = models.DecimalField(max_length=3, decimal_places=2, null=True, blank=True)
 
     def __str__(self):
         return self.name
